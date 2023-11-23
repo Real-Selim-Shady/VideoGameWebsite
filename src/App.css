@@ -1,0 +1,17 @@
+body{
+  width: 100%;
+  font-family: "Google Sans",Arial,sans-serif;
+  color: black;
+  display: flex;
+  place-content: center;
+  text-align: center;
+}
+
+.big-text{
+  font-size: 20px; 
+}
+
+.app-title{
+  padding-top: 50px;
+  padding-bottom: 30px;
+}

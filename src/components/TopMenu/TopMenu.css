@@ -1,0 +1,18 @@
+.top-menu-section{
+    display: none;
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    left: 1px;
+    background-color: #beb9b9;
+    opacity: 0;
+    transition: opacity 4s ease;
+    margin-top: 30px;
+    border-radius: 5px;
+
+}
+
+.active-top-menu-section{
+    opacity: 1;
+    display: flex;
+}
