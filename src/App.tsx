@@ -3,6 +3,8 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import PageLayout from "./components/PageLayout/PageLayout";
 import TopMenu from "./components/TopMenu/TopMenu";
+import RenderVideoGamesList from "./components/RenderVideoGameList/RenderVideoGamesList";
+
 
 
 
@@ -17,7 +19,7 @@ const App: React.FC = () => {
 					<>
 						<PageLayout>
 							<TopMenu />
-							<h1 className="app-title">Welcome Page</h1>
+							<RenderVideoGamesList />
 						</PageLayout>
 					</>
 				}

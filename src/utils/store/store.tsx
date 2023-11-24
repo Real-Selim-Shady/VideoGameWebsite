@@ -3,12 +3,14 @@ import { TypedUseSelectorHook, useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
 import any from "../features/slice"
 import displayer from "../features/displayer";
+import videoGameList from "../features/VideoGameList";
 
 
 export const store=configureStore({
 	reducer:{
 		any,
-		displayer
+		displayer,
+		videoGameList
 		//reducer: bring slices
 	}
 })
