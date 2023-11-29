@@ -4,12 +4,12 @@
     width: 200px;
     height: 300px;
     left: 1px;
-    background-color: #beb9b9;
+    background-color: black;
     opacity: 0;
     transition: opacity 4s ease;
     margin-top: 30px;
     border-radius: 5px;
-
+    z-index: 4;
 }
 
 .active-top-menu-section{

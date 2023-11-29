@@ -1,6 +1,5 @@
 
 import React, { useEffect } from "react";
-//import axios from "axios";
 import { getGamesList } from "../../utils/services/APICalls";
 import { useAppDispatch, useAppSelector } from "../../utils/store/store";
 import VideoGameCard from "../VideoGameCard/VideoGameCard";
