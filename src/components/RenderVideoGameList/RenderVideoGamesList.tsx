@@ -1,13 +1,13 @@
 import React from "react";
 import PlaceVideoGamesList from "../PlaceVideoGamesList/PlaceVideoGamesList";
-//import axios from "axios";
+import "./RenderVideoGamesList.css";
 
 const RenderVideoGamesList = ()=>{
 
 
 	return(
 		<>
-			<section className="VideoGamesList-Block">
+			<section className="video-games-list-block">
 				<PlaceVideoGamesList />
 			</section>
 		</>
