@@ -4,13 +4,16 @@ import { useSelector } from "react-redux";
 import any from "../features/slice"
 import displayer from "../features/displayer";
 import videoGameList from "../features/VideoGameList";
+import videoGameDetails from "../features/VideoGameDetails";
+
 
 
 export const store=configureStore({
 	reducer:{
 		any,
 		displayer,
-		videoGameList
+		videoGameList,
+		videoGameDetails
 		//reducer: bring slices
 	}
 })
